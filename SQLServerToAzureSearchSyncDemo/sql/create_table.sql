@@ -23,8 +23,7 @@ CREATE TABLE [dbo].[Products](
 	[DiscontinuedDate] [datetime] NULL,
 	[CategoryName] [nvarchar](50) NULL,
 	[ModelName] [nvarchar](50) NULL,
-	[Description] [nvarchar](400) NULL,
-	[Version] [timestamp] NOT NULL,
+	[Description] [nvarchar](400) NULL
 PRIMARY KEY CLUSTERED 
 (
 	[ProductID] ASC
